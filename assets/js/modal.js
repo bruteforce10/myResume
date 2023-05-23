@@ -4,7 +4,6 @@ const listPortofolio = document.querySelectorAll(".list-portofolio");
 listImage.forEach(function (el) {
   el.addEventListener("click", function (e) {
     const dataProject = new DataProjet(e.target.className);
-    dataProject;
   });
 });
 
@@ -45,7 +44,7 @@ class DataProjet {
         }
 
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p1design-1/${image}.webp`;
 
@@ -85,7 +84,7 @@ class DataProjet {
         }
 
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p2design/${image}.webp`;
         item.appendChild(img);
@@ -121,7 +120,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p3design-${image}.webp`;
 
@@ -161,7 +160,7 @@ class DataProjet {
         }
 
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("img-fluid");
         img.src = `assets/img/portfolio/p4design/${image}.webp`;
         item.appendChild(img);
@@ -197,7 +196,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p5design-${image}.webp`;
 
@@ -234,7 +233,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p6design-${image}.webp`;
 
@@ -271,7 +270,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p7design-${image}.webp`;
 
@@ -308,7 +307,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p8design-${image}.webp`;
 
@@ -345,7 +344,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p9design-${image}.webp`;
 
@@ -382,7 +381,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p10design-${image}.webp`;
 
@@ -419,7 +418,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p11design-${image}.webp`;
 
@@ -456,7 +455,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p12design-${image}.webp`;
 
@@ -493,7 +492,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p13design-${image}.webp`;
 
@@ -530,7 +529,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p14design-1/${image}.webp`;
 
@@ -567,7 +566,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p15design-1/${image}.webp`;
 
@@ -604,7 +603,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p16design-1/${image}.webp`;
 
@@ -641,7 +640,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p17design-1/${image}.webp`;
 
@@ -678,7 +677,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p18design-${image}.webp`;
 
@@ -715,7 +714,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p19design-1/${image}.webp`;
 
@@ -752,7 +751,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p20design-1/${image}.webp`;
 
@@ -789,7 +788,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p21design-1/${image}.webp`;
 
@@ -826,7 +825,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p22design-1/${image}.webp`;
 
@@ -863,7 +862,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p23design-1/${image}.webp`;
 
@@ -900,7 +899,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p24design-1/${image}.webp`;
 
@@ -937,7 +936,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p25design-1/${image}.webp`;
 
@@ -974,7 +973,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p26design-1/${image}.webp`;
 
@@ -1011,7 +1010,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p27design-1/${image}.webp`;
 
@@ -1048,7 +1047,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p28design-1/${image}.webp`;
 
@@ -1085,7 +1084,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p30design-1/${image}.webp`;
 
@@ -1122,7 +1121,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p29design-1/${image}.webp`;
 
@@ -1159,7 +1158,7 @@ class DataProjet {
           item.classList.add("active");
         }
         const img = document.createElement("img");
-
+        img.setAttribute("loading", "lazy");
         img.classList.add("d-block", "w-100");
         img.src = `assets/img/portfolio/p31design-1/ppt (${image}).webp`;
 
