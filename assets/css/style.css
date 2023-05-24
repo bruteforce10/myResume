@@ -707,25 +707,25 @@ section {
 }
 
 .row .design {
-  background: url(../img/DESIGN.jpg);
+  background: url(../img/DESIGN.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .row .video {
-  background: url(../img/VIDEO.jpg);
+  background: url(../img/VIDEO.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .row .designhouse {
-  background: url(../img/DESIGNHOUSE.jpg);
+  background: url(../img/DESIGNHOUSE.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .row .web {
-  background: url(../img/WEB.avif);
+  background: url(../img/WEB.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
