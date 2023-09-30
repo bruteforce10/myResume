@@ -51,6 +51,240 @@ class DataProjet {
         item.appendChild(img);
         carousel.appendChild(item);
       });
+    }
+    if (classgambar === "bx bx-info-circle arsi1") {
+      const data = ["Project Parkspring Gading Serpong"];
+
+      infoPortofolio.forEach(function (element, index) {
+        element.innerText = data[index];
+      });
+
+      let imgOld = document.querySelectorAll(".col-lg-6");
+      imgOld.forEach(function (img) {
+        img.remove();
+      });
+
+      const images = [];
+      for (let x = 1; x < 18; x++) {
+        images.push(x.toString());
+      }
+
+      const carousel = document.querySelector(".carousel-inner");
+      images.forEach((image, index) => {
+        const item = document.createElement("div");
+        item.classList.add("col-lg-6", "col-sm-12", "p-3");
+        const img = document.createElement("img");
+        img.setAttribute("loading", "lazy");
+        img.classList.add("d-block", "w-100");
+        img.src = `assets/img/portofolioArchitecture/parkspring/${image}.webp`;
+        item.appendChild(img);
+        carousel.appendChild(item);
+      });
+    }
+
+    if (classgambar === "bx bx-info-circle arsi2") {
+      const data = ["Project Hotel Kasablangka"];
+
+      infoPortofolio.forEach(function (element, index) {
+        element.innerText = data[index];
+      });
+
+      let imgOld = document.querySelectorAll(".col-lg-6");
+      imgOld.forEach(function (img) {
+        img.remove();
+      });
+
+      const images = [];
+      for (let x = 1; x < 9; x++) {
+        images.push(x.toString());
+      }
+
+      const carousel = document.querySelector(".carousel-inner");
+      images.forEach((image, index) => {
+        const item = document.createElement("div");
+        item.classList.add("col-lg-6", "col-sm-12", "p-3");
+        const img = document.createElement("img");
+        img.setAttribute("loading", "lazy");
+        img.classList.add("d-block", "w-100");
+        img.src = `assets/img/portofolioArchitecture/hotel/${image}.webp`;
+        item.appendChild(img);
+        carousel.appendChild(item);
+      });
+    }
+    if (classgambar === "bx bx-info-circle arsi3") {
+      const data = ["Best Practice Scandinavian Interiors #1"];
+
+      infoPortofolio.forEach(function (element, index) {
+        element.innerText = data[index];
+      });
+
+      let imgOld = document.querySelectorAll(".col-lg-6");
+      imgOld.forEach(function (img) {
+        img.remove();
+      });
+
+      const images = [];
+      for (let x = 1; x < 4; x++) {
+        images.push(x.toString());
+      }
+
+      const carousel = document.querySelector(".carousel-inner");
+      images.forEach((image, index) => {
+        const item = document.createElement("div");
+        item.classList.add("col-lg-6", "col-sm-12", "p-3");
+        const img = document.createElement("img");
+        img.setAttribute("loading", "lazy");
+        img.classList.add("d-block", "w-100");
+        img.src = `assets/img/portofolioArchitecture/interior-minimalist/${image}.webp`;
+        item.appendChild(img);
+        carousel.appendChild(item);
+      });
+    }
+    if (classgambar === "bx bx-info-circle arsi4") {
+      const data = ["Best Practice Scandinavian - Modern Interiors #2"];
+
+      infoPortofolio.forEach(function (element, index) {
+        element.innerText = data[index];
+      });
+
+      let imgOld = document.querySelectorAll(".col-lg-6");
+      imgOld.forEach(function (img) {
+        img.remove();
+      });
+
+      const images = [];
+      for (let x = 1; x < 6; x++) {
+        images.push(x.toString());
+      }
+
+      const carousel = document.querySelector(".carousel-inner");
+      images.forEach((image, index) => {
+        const item = document.createElement("div");
+        item.classList.add("col-lg-6", "col-sm-12", "p-3");
+        const img = document.createElement("img");
+        img.setAttribute("loading", "lazy");
+        img.classList.add("d-block", "w-100");
+        img.src = `assets/img/portofolioArchitecture/interior-scandainavian/${image}.webp`;
+        item.appendChild(img);
+        carousel.appendChild(item);
+      });
+    }
+
+    if (classgambar === "bx bx-info-circle arsi5") {
+      const data = ["Best Practice Interiors #3"];
+
+      infoPortofolio.forEach(function (element, index) {
+        element.innerText = data[index];
+      });
+
+      let imgOld = document.querySelectorAll(".col-lg-6");
+      imgOld.forEach(function (img) {
+        img.remove();
+      });
+
+      const images = [];
+      for (let x = 1; x < 5; x++) {
+        images.push(x.toString());
+      }
+
+      const carousel = document.querySelector(".carousel-inner");
+      images.forEach((image, index) => {
+        const item = document.createElement("div");
+        item.classList.add("col-lg-6", "col-sm-12", "p-3");
+        const img = document.createElement("img");
+        img.setAttribute("loading", "lazy");
+        img.classList.add("d-block", "w-100");
+        img.src = `assets/img/portofolioArchitecture/interior-one/${image}.webp`;
+        item.appendChild(img);
+        carousel.appendChild(item);
+      });
+    }
+    if (classgambar === "bx bx-info-circle arsi6") {
+      const data = ["Best Practice Restaurant Industrial #1"];
+
+      infoPortofolio.forEach(function (element, index) {
+        element.innerText = data[index];
+      });
+
+      let imgOld = document.querySelectorAll(".col-lg-6");
+      imgOld.forEach(function (img) {
+        img.remove();
+      });
+
+      const images = [];
+      for (let x = 1; x < 4; x++) {
+        images.push(x.toString());
+      }
+
+      const carousel = document.querySelector(".carousel-inner");
+      images.forEach((image, index) => {
+        const item = document.createElement("div");
+        item.classList.add("col-lg-6", "col-sm-12", "p-3");
+        const img = document.createElement("img");
+        img.setAttribute("loading", "lazy");
+        img.classList.add("d-block", "w-100");
+        img.src = `assets/img/portofolioArchitecture/restaurant-one/${image}.webp`;
+        item.appendChild(img);
+        carousel.appendChild(item);
+      });
+    }
+    if (classgambar === "bx bx-info-circle arsi6") {
+      const data = ["Best Practice Restaurant Industrial #1"];
+
+      infoPortofolio.forEach(function (element, index) {
+        element.innerText = data[index];
+      });
+
+      let imgOld = document.querySelectorAll(".col-lg-6");
+      imgOld.forEach(function (img) {
+        img.remove();
+      });
+
+      const images = [];
+      for (let x = 1; x < 4; x++) {
+        images.push(x.toString());
+      }
+
+      const carousel = document.querySelector(".carousel-inner");
+      images.forEach((image, index) => {
+        const item = document.createElement("div");
+        item.classList.add("col-lg-6", "col-sm-12", "p-3");
+        const img = document.createElement("img");
+        img.setAttribute("loading", "lazy");
+        img.classList.add("d-block", "w-100");
+        img.src = `assets/img/portofolioArchitecture/restaurant-one/${image}.webp`;
+        item.appendChild(img);
+        carousel.appendChild(item);
+      });
+    }
+    if (classgambar === "bx bx-info-circle arsi7") {
+      const data = ["Best Practice Restaurant #2"];
+
+      infoPortofolio.forEach(function (element, index) {
+        element.innerText = data[index];
+      });
+
+      let imgOld = document.querySelectorAll(".col-lg-6");
+      imgOld.forEach(function (img) {
+        img.remove();
+      });
+
+      const images = [];
+      for (let x = 1; x < 4; x++) {
+        images.push(x.toString());
+      }
+
+      const carousel = document.querySelector(".carousel-inner");
+      images.forEach((image, index) => {
+        const item = document.createElement("div");
+        item.classList.add("col-lg-6", "col-sm-12", "p-3");
+        const img = document.createElement("img");
+        img.setAttribute("loading", "lazy");
+        img.classList.add("d-block", "w-100");
+        img.src = `assets/img/portofolioArchitecture/restaurant-two/${image}.webp`;
+        item.appendChild(img);
+        carousel.appendChild(item);
+      });
     } else if (classgambar === "bx bx-info-circle dua") {
       const data = [
         "Civil Engineering Magazine Around Covid 19",
